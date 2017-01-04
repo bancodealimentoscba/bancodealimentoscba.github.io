@@ -1,0 +1,90 @@
+.image.fit.landing  img {
+  overflow: hidden;
+  height: 400px;
+  object-fit: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+span.italic {
+  font-style: italic;
+}
+
+.modal {
+  color: black;
+}
+
+.modal-title {
+  color: #fff;
+}
+
+.modal .modal-dialog .modal-content .modal-header,
+.modal .modal-dialog .modal-content .modal-footer {
+  background-color: #4d2028;
+}
+
+.modal .modal-dialog .modal-content .modal-footer button {
+  background-color: white;
+  color: #4d2028!important;
+}
+
+.modal .modal-dialog .modal-content .modal-body p {
+  margin: 0;
+  padding-left: 50px;
+}
+
+.modal .modal-dialog .modal-content .modal-body p.sub-title {
+  padding: 0;
+  margin: 0;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.angular-google-map-container {
+  height: 400px;
+  margin-top: 10px;
+}
+
+.schedule {
+  margin-left: 30px;
+}
+
+.modal.form-documentation .modal-dialog .modal-content .modal-body p {
+  padding-left: inherit;
+}
+
+.modal.form-documentation b {
+  color: inherit;
+}
+
+.modal.form-documentation ul {
+  padding-left: 4em;
+}
+
+form.organization-form {
+  margin: 0;
+}
+
+form .schedule {
+  width: 90%;
+}
+
+footer.edit-footer.wrapper.alt,
+footer.form-footer.wrapper.alt {
+  background-color: #4d2028;
+}
+
+section.wrapper {
+  background: #ffffff url(../images/background.jpg) top center repeat scroll;
+}
+
+#intro h1,
+#intro p {
+  color: #fff;
+}
+
+section.wrapper .inner,
+section.wrapper .major,
+section.wrapper b {
+  color: #222222 !important;
+}
