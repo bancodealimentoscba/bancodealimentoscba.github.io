@@ -28,6 +28,12 @@ span.italic {
   color: #4d2028!important;
 }
 
+.modal .modal-dialog .modal-content .modal-footer button.special-tertiary {
+  background-color: #4d2028;
+  border-color: #FFFFFF!important;
+  color: #FFFFFF!important;
+}
+
 .modal .modal-dialog .modal-content .modal-body p {
   margin: 0;
   padding-left: 50px;
@@ -46,7 +52,12 @@ span.italic {
 }
 
 .schedule {
-  margin-left: 30px;
+  margin-left: 50px;
+  color: #222;
+}
+
+.schedule.to {
+  margin-bottom: 30px;
 }
 
 .modal.form-documentation .modal-dialog .modal-content .modal-body p {
@@ -69,22 +80,59 @@ form .schedule {
   width: 90%;
 }
 
-footer.edit-footer.wrapper.alt,
-footer.form-footer.wrapper.alt {
+footer.wrapper.alt,
+footer.wrapper.alt {
   background-color: #4d2028;
 }
 
 section.wrapper {
-  background: #ffffff url(../images/background.jpg) top center repeat scroll;
+  background: #ffffff url(//bancodealimentoscba.org.ar/wp-content/uploads/2015/12/fondoWebBanco7.jpg) top center repeat scroll;
 }
 
 #intro h1,
-#intro p {
+#intro p,
+#intro ul {
   color: #fff;
+}
+
+#intro p.requeriments {
+  margin-bottom: 1em;
+}
+
+#intro p.requeriments,
+#intro ul li {
+  font-size: 1.12em;
 }
 
 section.wrapper .inner,
 section.wrapper .major,
 section.wrapper b {
   color: #222222 !important;
+}
+
+.mousescroll {
+  position: absolute;
+  bottom: 10px;
+  left: calc(50% - 10px);
+  cursor: pointer;
+}
+
+input[type="submit"].special-secondary,
+input[type="reset"].special-secondary,
+input[type="button"].special-secondary,
+button.special-secondary,
+.button.special-secondary {
+  background-color: #FFFFFF;
+  border-color: #4d2028!important;
+  color: #4d2028!important;
+}
+
+input[type="submit"].special-tertiary,
+input[type="reset"].special-tertiary,
+input[type="button"].special-tertiary,
+button.special-tertiary,
+.button.special-tertiary {
+  background-color: #4d2028;
+  border-color: #FFFFFF!important;
+  color: #FFFFFF!important;
 }
